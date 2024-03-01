@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Aplicación del tiempo | predicción a 5 días</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1>Consulta el clima en tu ciudad</h1>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Escribe el nombre de una ciudad</h3>
+        <input class="city-input" type="text" placeholder="Ej. Madrid, ES">
+        <button class="search-btn">Buscar</button>
+        <div class="separador"></div>
+        <button class="location-btn">Tu ubicación actual</button>
+      </div>
+      <div class="weather-data hidden">
+        <div class="current-weather">
+          <div class="details">
+            <h2>________ ( _______ )</h2>
+            <h6>Temperatura: __°C</h6>
+            <h6>Viento: __ M/S</h6>
+            <h6>Humedad: __%</h6>
+          </div>
+        </div>
+        <div class="days-forecast">
+          <h2>Predicción a 5 días</h2>
+          <ul class="weather-cards">
+            <li class="card">
+              <h3>( _______ )</h3>
+              <h6>Temperatura: __°C</h6>
+              <h6>Viento: __ M/S</h6>
+              <h6>Humedad: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( _______ )</h3>
+              <h6>Temperatura: __°C</h6>
+              <h6>Viento: __ M/S</h6>
+              <h6>Humedad: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( _______ )</h3>
+              <h6>Temperatura: __°C</h6>
+              <h6>Viento: __ M/S</h6>
+              <h6>Humedad: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( _______ )</h3>
+              <h6>Temperatura: __°C</h6>
+              <h6>Viento: __ M/S</h6>
+              <h6>Humedad: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( _______ )</h3>
+              <h6>Temperatura: __°C</h6>
+              <h6>Viento: __ M/S</h6>
+              <h6>Humedad: __%</h6>
+            </li>
+          </ul>
+          <div class="footer">
+            <h6>Datos obtenidos de: openweathermap.org</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="module" src="script.js" defer></script>
+    <script type="module" src="config.js"></script>
+  </body>
+</html>
